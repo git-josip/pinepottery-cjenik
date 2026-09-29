@@ -1,0 +1,39 @@
+name: Objava stranice
+
+# Kad se ručno promijeni izgled (stil, logo, naslovnica), objavi public/ na
+# Pages bez generiranja novog cjenika. Bot commitovi iz "Objava cjenika" idu
+# preko GITHUB_TOKEN-a i ne okidaju ovaj workflow, pa nema petlje.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - '.github/workflows/stranica.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Ista grupa kao objava cjenika, da se dvije objave na Pages ne preklope.
+concurrency:
+  group: cjenik
+  cancel-in-progress: false
+
+jobs:
+  objavi:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.objava.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Objavi na GitHub Pages
+        id: objava
+        uses: actions/deploy-pages@v4
