@@ -6,8 +6,6 @@ Skripta povuče aktivne proizvode iz Shopifyja, zapiše `cjenik.csv` i `cjenik.x
 
 Adresa: <https://cjenik.pinepottery.art/> (webshop: <https://www.pinepottery.art>)
 
-Fork od [zvone-greentoolstech/gtt-cjenik](https://github.com/zvone-greentoolstech/gtt-cjenik).
-
 Nije pravni savjet — za granične slučajeve konzultirati knjigovođu ili HOK.
 
 ## Što sadrži cjenik
@@ -123,4 +121,4 @@ npm run generate
 
 ## Stanje
 
-Fork postavljen 27. 9. 2026. Arhiva i brojač pohrane resetirani (GTT podaci obrisani). Podaci o trgovcu popunjeni u `config.json`.
+Postavljeno 29. 9. 2026.: objava na `cjenik.pinepottery.art`, glavni i kontrolni cron te input `rezerva` za vanjski okidač.
