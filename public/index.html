@@ -4,46 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cjenik — Pine Pottery</title>
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --line: #e2e2e2; --accent: #2f6b3a;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #161817; --fg: #ececec; --muted: #a0a4a1; --line: #2e312f; --accent: #8fc79b; }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--fg);
-    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    padding: 48px 16px;
-  }
-  main { max-width: 640px; margin: 0 auto; }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p.lead { color: var(--muted); margin: 0 0 32px; }
-  ul { list-style: none; padding: 0; margin: 0 0 32px; border-top: 1px solid var(--line); }
-  li { border-bottom: 1px solid var(--line); }
-  a { color: var(--accent); text-decoration: none; display: block; padding: 14px 0; font-weight: 600; }
-  a:hover { text-decoration: underline; }
-  a span { display: block; font-weight: 400; color: var(--muted); font-size: 0.9rem; }
-  footer { color: var(--muted); font-size: 0.875rem; border-top: 1px solid var(--line); padding-top: 16px; }
-</style>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Halant:wght@400;600&family=Open+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="stil.css">
 </head>
 <body>
 <main>
-  <h1>Cjenik proizvoda</h1>
-  <p class="lead">Pine Pottery — objava prema Odluci o objavi cjenika proizvoda i usluga kao mjeri izravne kontrole cijena (NN 101/2026).</p>
+  <header class="zaglavlje">
+    <a href="https://www.pinepottery.art"><img src="logo.png" alt="Pine Pottery" width="395" height="320"></a>
+  </header>
 
-  <ul>
+  <h1>Cjenik proizvoda</h1>
+  <p class="lead">Objava prema Odluci o objavi cjenika proizvoda i usluga kao mjeri izravne kontrole cijena (NN 101/2026).</p>
+
+  <ul class="datoteke">
     <li><a href="cjenik.csv">cjenik.csv<span>Aktualni cjenik u CSV formatu</span></a></li>
     <li><a href="cjenik.xml">cjenik.xml<span>Aktualni cjenik u XML formatu</span></a></li>
-    <li><a href="arhiva/">arhiva<span>Ranije objave, najmanje 30 dana</span></a></li>
+    <li><a href="arhiva/">Arhiva<span>Ranije objave, najmanje 30 dana</span></a></li>
   </ul>
 
   <footer>
     Cijene su maloprodajne, u eurima, s uključenim PDV-om. Sidrena cijena je cijena zatečena
     na dan 10. rujna 2026. Datoteke se objavljuju svakog radnog dana do 8:00 sati i dostupne su
     bez prijave i bez ograničenja za automatizirano preuzimanje.
+    <br><a class="natrag" href="https://www.pinepottery.art">&larr; Natrag na webshop</a>
   </footer>
 </main>
 </body>

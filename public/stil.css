@@ -1,0 +1,77 @@
+/* Zajednički stil naslovnice i arhive, usklađen s www.pinepottery.art
+   (boje i fontovi iz teme webshopa, terakota iz logotipa). */
+:root {
+  --bg: #f8f4f2;
+  --surface: #fcf9f9;
+  --fg: #615757;
+  --muted: #706565;
+  --line: #e4dfdb;
+  --brand: #d58479;   /* terakota iz logotipa, samo dekorativno */
+  --accent: #a9533f;  /* tamnija terakota za poveznice, čitljiva na pozadini */
+  --hover: #3a3535;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 18px/1.55 Halant, Georgia, serif;
+  padding: 32px 16px 48px;
+}
+main { max-width: 720px; margin: 0 auto; }
+
+.zaglavlje { text-align: center; margin: 0 0 28px; }
+.zaglavlje img { width: 132px; height: auto; display: inline-block; }
+.zaglavlje::after {
+  content: ""; display: block; width: 48px; height: 2px;
+  background: var(--brand); margin: 20px auto 0; border-radius: 2px;
+}
+
+h1 {
+  font: 600 1.6rem/1.2 "Open Sans", system-ui, sans-serif;
+  color: var(--fg); text-align: center; margin: 0 0 8px;
+}
+p.lead { color: var(--muted); text-align: center; margin: 0 auto 28px; max-width: 560px; }
+
+a { color: var(--accent); text-decoration: none; transition: color .2s ease-out; }
+a:hover, a:focus { color: var(--hover); text-decoration: underline; }
+
+/* naslovnica: popis datoteka */
+ul.datoteke {
+  list-style: none; padding: 0; margin: 0 0 32px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+}
+ul.datoteke li + li { border-top: 1px solid var(--line); }
+ul.datoteke a { display: block; padding: 14px 18px; font: 600 1rem/1.4 "Open Sans", system-ui, sans-serif; }
+ul.datoteke a span { display: block; font: 400 0.95rem/1.4 Halant, Georgia, serif; color: var(--muted); }
+
+/* arhiva: tablica */
+p.danas { text-align: center; margin: -12px 0 24px; font-family: "Open Sans", system-ui, sans-serif; font-size: 0.9rem; }
+.tablica {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+  overflow-x: auto; margin: 0 0 32px;
+}
+table { width: 100%; border-collapse: collapse; font: 0.95rem/1.4 "Open Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+thead th { color: var(--muted); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+tbody th { font-weight: 600; color: var(--fg); }
+tbody tr:hover { background: var(--bg); }
+td a { font-weight: 600; }
+.vrijeme, .broj, .velicina, .fali { color: var(--muted); }
+.velicina { font-size: 0.78rem; }
+.broj { text-align: right; }
+.aktualni {
+  display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px;
+  background: var(--accent); color: #fff; font-size: 0.68rem; font-weight: 600; vertical-align: 2px;
+}
+
+footer {
+  color: var(--muted); font-size: 0.95rem; text-align: center;
+  border-top: 1px solid var(--line); padding-top: 18px;
+}
+footer .natrag { display: inline-block; margin-top: 10px; font-family: "Open Sans", system-ui, sans-serif; font-size: 0.9rem; }
+
+@media (max-width: 480px) {
+  body { font-size: 17px; }
+  th, td { padding: 9px 8px; }
+  .broj, .velicina { display: none; }
+}
