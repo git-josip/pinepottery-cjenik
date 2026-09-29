@@ -22,11 +22,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  objavi:
+  # Upload i deploy u odvojenim jobovima: u istom jobu deploy-pages zna ne
+  # vidjeti upravo uploadani artefakt ("Found 0 artifact(s)").
+  pripremi:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.objava.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +33,13 @@ jobs:
         with:
           path: public
 
+  objavi:
+    needs: pripremi
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.objava.outputs.page_url }}
+    steps:
       - name: Objavi na GitHub Pages
         id: objava
         uses: actions/deploy-pages@v4
