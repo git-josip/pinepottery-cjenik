@@ -64,6 +64,20 @@ Dva crona (UTC): glavna objava `30 3 * * 1-5` (5:30 ljeti, 4:30 zimi) i kontroln
 
 Zakazano pokretanje ne objavljuje ako u arhivi već postoji današnja datoteka, pa kontrolna objavi samo kad glavna nije prošla. Ručno pokretanje uvijek objavljuje.
 
+### Vanjski okidač (cron-job.org)
+
+GitHubov `schedule` od 26. 8. 2026. u mnogim repozitorijima ne okida ili kasni satima (community discussions #206019, #207346; bez odgovora GitHuba). Zato objavu pokreće i cron-job.org preko API-ja:
+
+- POST `https://api.github.com/repos/git-josip/pinepottery-cjenik/actions/workflows/cjenik.yml/dispatches`
+- zaglavlja `Authorization: Bearer <PAT>` i `Accept: application/vnd.github+json`
+- tijelo `{"ref":"main","inputs":{"rezerva":"true"}}`
+- pon–pet u 5:30 i 6:30, vremenska zona Europe/Zagreb
+- uspjeh = HTTP 204
+
+PAT je fine-grained, samo za ovaj repozitorij, s dozvolom **Actions: Read and write**. Vrijedi godinu dana — obnoviti ga prije isteka, inače okidač tiho prestaje raditi.
+
+S `rezerva=true` run ne objavljuje ako je danas već objavljeno, pa se GitHubov cron i vanjski okidač ne sudaraju.
+
 Vikendom se ne izvodi jer Odluka traži objavu svakog **radnog** dana. Ako želiš i vikende, u oba crona zamijeni `1-5` sa `*`.
 
 ## Arhiva
