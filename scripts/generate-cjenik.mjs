@@ -294,24 +294,40 @@ function zapisiPopisArhive(dir) {
     .filter((ime) => ime.endsWith('.csv') || ime.endsWith('.xml'))
     .map((ime) => ({
       ime,
+      vrsta: ime.endsWith('.csv') ? 'csv' : 'xml',
       vrijeme: vrijemeIzNaziva(ime),
       brojPohrane: brojPohraneIzNaziva(ime),
       velicina: statSync(join(dir, ime)).size,
-    }))
-    .sort((a, b) => {
-      const av = a.vrijeme ? a.vrijeme.getTime() : 0;
-      const bv = b.vrijeme ? b.vrijeme.getTime() : 0;
-      // Najnovije gore. Unutar iste minute presudi redni broj pohrane,
-      // a tek onda naziv, da CSV i XML iste objave ostanu jedno uz drugo.
-      return bv - av || b.brojPohrane - a.brojPohrane || a.ime.localeCompare(b.ime);
-    });
+    }));
 
-  const stavke = datoteke.map((d) => {
-    const datum = d.vrijeme
-      ? d.vrijeme.toLocaleString('hr-HR', { dateStyle: 'short', timeStyle: 'short' })
-      : 'nepoznato vrijeme';
-    const kb = Math.max(1, Math.round(d.velicina / 1024));
-    return `    <li><a href="${htmlEscape(d.ime)}">${htmlEscape(d.ime)}<span>${htmlEscape(datum)} &middot; ${kb} kB</span></a></li>`;
+  // CSV i XML iste objave dijele naziv bez ekstenzije, pa ih spajamo u jedan red.
+  const objave = new Map();
+  for (const d of datoteke) {
+    const kljuc = d.ime.replace(/\.(csv|xml)$/, '');
+    if (!objave.has(kljuc)) objave.set(kljuc, { vrijeme: d.vrijeme, brojPohrane: d.brojPohrane });
+    objave.get(kljuc)[d.vrsta] = d;
+  }
+  // Najnovije gore; unutar iste minute presudi redni broj pohrane.
+  const redovi = [...objave.values()].sort((a, b) =>
+    (b.vrijeme?.getTime() ?? 0) - (a.vrijeme?.getTime() ?? 0) || b.brojPohrane - a.brojPohrane);
+
+  const dvije = (n) => String(n).padStart(2, '0');
+  const poveznica = (d, oznaka) => d
+    ? `<a href="${htmlEscape(d.ime)}" title="${htmlEscape(d.ime)}">${oznaka}</a> <span class="velicina">${Math.max(1, Math.round(d.velicina / 1024))} kB</span>`
+    : '<span class="fali">&mdash;</span>';
+
+  const stavke = redovi.map((r, i) => {
+    const v = r.vrijeme;
+    const dan = v ? `${v.getDate()}. ${v.getMonth() + 1}. ${v.getFullYear()}.` : 'nepoznato';
+    const sat = v ? `${dvije(v.getHours())}:${dvije(v.getMinutes())}` : '';
+    const oznaka = i === 0 ? ' <span class="aktualni">aktualni</span>' : '';
+    return `      <tr>
+        <th scope="row">${dan}${oznaka}</th>
+        <td class="vrijeme">${sat}</td>
+        <td>${poveznica(r.csv, 'CSV')}</td>
+        <td>${poveznica(r.xml, 'XML')}</td>
+        <td class="broj">${r.brojPohrane || ''}</td>
+      </tr>`;
   }).join('\n');
 
   const html = `<!doctype html>
@@ -323,10 +339,10 @@ function zapisiPopisArhive(dir) {
 <style>
   :root {
     color-scheme: light dark;
-    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --line: #e2e2e2; --accent: #2f6b3a;
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --line: #e2e2e2; --head: #f5f6f5; --accent: #2f6b3a; --badge: #e3efe5;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #161817; --fg: #ececec; --muted: #a0a4a1; --line: #2e312f; --accent: #8fc79b; }
+    :root { --bg: #161817; --fg: #ececec; --muted: #a0a4a1; --line: #2e312f; --head: #1e211f; --accent: #8fc79b; --badge: #24372a; }
   }
   * { box-sizing: border-box; }
   body {
@@ -334,31 +350,47 @@ function zapisiPopisArhive(dir) {
     font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     padding: 48px 16px;
   }
-  main { max-width: 640px; margin: 0 auto; }
+  main { max-width: 720px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p.lead { color: var(--muted); margin: 0 0 32px; }
-  p.lead a { color: var(--accent); }
-  ul { list-style: none; padding: 0; margin: 0 0 32px; border-top: 1px solid var(--line); }
-  li { border-bottom: 1px solid var(--line); }
-  li a { color: var(--accent); text-decoration: none; display: block; padding: 12px 0; font-weight: 600; word-break: break-all; }
-  li a:hover { text-decoration: underline; }
-  li a span { display: block; font-weight: 400; color: var(--muted); font-size: 0.875rem; word-break: normal; }
+  p.lead { color: var(--muted); margin: 0 0 8px; }
+  p.danas { margin: 0 0 28px; }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  a:hover, a:focus { text-decoration: underline; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 32px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  thead th { background: var(--head); color: var(--muted); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  tbody th { font-weight: 600; }
+  tbody tr:hover { background: var(--head); }
+  .vrijeme, .broj, .velicina, .fali { color: var(--muted); }
+  .velicina { font-size: 0.8rem; }
+  .broj { text-align: right; }
+  .aktualni { display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px; background: var(--badge); color: var(--accent); font-size: 0.7rem; font-weight: 600; vertical-align: 2px; }
   footer { color: var(--muted); font-size: 0.875rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  @media (max-width: 480px) {
+    th, td { padding: 8px 6px; }
+    .broj, .velicina { display: none; }
+  }
 </style>
 </head>
 <body>
 <main>
   <h1>Arhiva cjenika</h1>
-  <p class="lead">Ranije objave, najmanje 30 dana unatrag. <a href="../">Natrag na aktualni cjenik</a></p>
+  <p class="lead">Pine Pottery &middot; objavljeni cjenici u strojno čitljivom obliku, dostupni najmanje 30 dana od objave, prema Odluci o objavi cjenika proizvoda i usluga (NN 101/2026).</p>
+  <p class="danas">Aktualni cjenik: <a href="../cjenik.csv">CSV</a> &middot; <a href="../cjenik.xml">XML</a> &middot; <a href="../">naslovnica</a></p>
 
-  <ul>
+  <table>
+    <thead>
+      <tr><th scope="col">Dan</th><th scope="col">Vrijeme</th><th scope="col">CSV</th><th scope="col">XML</th><th scope="col" class="broj">Br. pohrane</th></tr>
+    </thead>
+    <tbody>
 ${stavke}
-  </ul>
+    </tbody>
+  </table>
 
   <footer>
-    Naziv svake datoteke sadrzi oblik prodajnog objekta, adresu, oznaku objekta, redni broj pohrane
-    i vrijeme objave, prema tocki VI. Odluke (NN 101/2026). Prikazano vrijeme je vrijeme objave
-    ocitano iz naziva datoteke.
+    Naziv svake datoteke sadrži oblik prodajnog objekta, adresu, oznaku objekta, broj pohrane
+    i vrijeme objave, prema točki VI. Odluke. Prikazano vrijeme je vrijeme objave očitano iz
+    naziva datoteke. Puni naziv datoteke vidi se zadržavanjem pokazivača na poveznici.
   </footer>
 </main>
 </body>

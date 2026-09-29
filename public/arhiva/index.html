@@ -7,10 +7,10 @@
 <style>
   :root {
     color-scheme: light dark;
-    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --line: #e2e2e2; --accent: #2f6b3a;
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --line: #e2e2e2; --head: #f5f6f5; --accent: #2f6b3a; --badge: #e3efe5;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #161817; --fg: #ececec; --muted: #a0a4a1; --line: #2e312f; --accent: #8fc79b; }
+    :root { --bg: #161817; --fg: #ececec; --muted: #a0a4a1; --line: #2e312f; --head: #1e211f; --accent: #8fc79b; --badge: #24372a; }
   }
   * { box-sizing: border-box; }
   body {
@@ -18,36 +18,67 @@
     font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     padding: 48px 16px;
   }
-  main { max-width: 640px; margin: 0 auto; }
+  main { max-width: 720px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  p.lead { color: var(--muted); margin: 0 0 32px; }
-  p.lead a { color: var(--accent); }
-  ul { list-style: none; padding: 0; margin: 0 0 32px; border-top: 1px solid var(--line); }
-  li { border-bottom: 1px solid var(--line); }
-  li a { color: var(--accent); text-decoration: none; display: block; padding: 12px 0; font-weight: 600; word-break: break-all; }
-  li a:hover { text-decoration: underline; }
-  li a span { display: block; font-weight: 400; color: var(--muted); font-size: 0.875rem; word-break: normal; }
+  p.lead { color: var(--muted); margin: 0 0 8px; }
+  p.danas { margin: 0 0 28px; }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  a:hover, a:focus { text-decoration: underline; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 32px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  thead th { background: var(--head); color: var(--muted); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  tbody th { font-weight: 600; }
+  tbody tr:hover { background: var(--head); }
+  .vrijeme, .broj, .velicina, .fali { color: var(--muted); }
+  .velicina { font-size: 0.8rem; }
+  .broj { text-align: right; }
+  .aktualni { display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px; background: var(--badge); color: var(--accent); font-size: 0.7rem; font-weight: 600; vertical-align: 2px; }
   footer { color: var(--muted); font-size: 0.875rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  @media (max-width: 480px) {
+    th, td { padding: 8px 6px; }
+    .broj, .velicina { display: none; }
+  }
 </style>
 </head>
 <body>
 <main>
   <h1>Arhiva cjenika</h1>
-  <p class="lead">Ranije objave, najmanje 30 dana unatrag. <a href="../">Natrag na aktualni cjenik</a></p>
+  <p class="lead">Pine Pottery &middot; objavljeni cjenici u strojno čitljivom obliku, dostupni najmanje 30 dana od objave, prema Odluci o objavi cjenika proizvoda i usluga (NN 101/2026).</p>
+  <p class="danas">Aktualni cjenik: <a href="../cjenik.csv">CSV</a> &middot; <a href="../cjenik.xml">XML</a> &middot; <a href="../">naslovnica</a></p>
 
-  <ul>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.csv">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.csv<span>29. 09. 2026. 10:40 &middot; 2 kB</span></a></li>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.xml">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.xml<span>29. 09. 2026. 10:40 &middot; 17 kB</span></a></li>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.csv">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.csv<span>28. 09. 2026. 07:25 &middot; 2 kB</span></a></li>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.xml">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.xml<span>28. 09. 2026. 07:25 &middot; 17 kB</span></a></li>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.csv">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.csv<span>27. 09. 2026. 18:48 &middot; 2 kB</span></a></li>
-    <li><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.xml">internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.xml<span>27. 09. 2026. 18:48 &middot; 17 kB</span></a></li>
-  </ul>
+  <table>
+    <thead>
+      <tr><th scope="col">Dan</th><th scope="col">Vrijeme</th><th scope="col">CSV</th><th scope="col">XML</th><th scope="col" class="broj">Br. pohrane</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">29. 9. 2026. <span class="aktualni">aktualni</span></th>
+        <td class="vrijeme">10:40</td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.csv" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.csv">CSV</a> <span class="velicina">2 kB</span></td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.xml" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_3_20260929-1040.xml">XML</a> <span class="velicina">17 kB</span></td>
+        <td class="broj">3</td>
+      </tr>
+      <tr>
+        <th scope="row">28. 9. 2026.</th>
+        <td class="vrijeme">07:25</td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.csv" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.csv">CSV</a> <span class="velicina">2 kB</span></td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.xml" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_2_20260928-0725.xml">XML</a> <span class="velicina">17 kB</span></td>
+        <td class="broj">2</td>
+      </tr>
+      <tr>
+        <th scope="row">27. 9. 2026.</th>
+        <td class="vrijeme">18:48</td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.csv" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.csv">CSV</a> <span class="velicina">2 kB</span></td>
+        <td><a href="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.xml" title="internetska-trgovina_mosecka-48-21000-split-croatia_pinepottery-art_1_20260927-1848.xml">XML</a> <span class="velicina">17 kB</span></td>
+        <td class="broj">1</td>
+      </tr>
+    </tbody>
+  </table>
 
   <footer>
-    Naziv svake datoteke sadrzi oblik prodajnog objekta, adresu, oznaku objekta, redni broj pohrane
-    i vrijeme objave, prema tocki VI. Odluke (NN 101/2026). Prikazano vrijeme je vrijeme objave
-    ocitano iz naziva datoteke.
+    Naziv svake datoteke sadrži oblik prodajnog objekta, adresu, oznaku objekta, broj pohrane
+    i vrijeme objave, prema točki VI. Odluke. Prikazano vrijeme je vrijeme objave očitano iz
+    naziva datoteke. Puni naziv datoteke vidi se zadržavanjem pokazivača na poveznici.
   </footer>
 </main>
 </body>
