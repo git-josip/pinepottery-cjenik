@@ -1,0 +1,30 @@
+﻿naziv_proizvoda;sifra_proizvoda;marka;neto_kolicina_jedinica_mjere;cijena_za_jedinicu_mjere;maloprodajna_cijena;poseban_oblik_prodaje;naziv_posebnog_oblika_prodaje;sidrena_cijena;barkod;dostupnost
+Beach espresso cup;EC1;Pine pottery;1 kom;21,00;21,00;NE;;21,00;;nedostupno
+Bougainvillea vase;BV;Pine pottery;1 kom;140,00;140,00;NE;;140,00;;nedostupno
+Capers bowl;SB;Pine pottery;1 kom;60,00;60,00;NE;;60,00;;nedostupno
+Capers oil bottle;COB;Pine pottery;1 kom;80,00;80,00;NE;;80,00;;nedostupno
+Capers plate;RPS;Pine pottery;1 kom;45,00;45,00;NE;;45,00;;nedostupno
+Deep blue bowl;SB;Pine pottery;1 kom;60,00;60,00;NE;;60,00;;dostupno
+Deep Blue Oil Bottle;DBOB;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Deep blue plate;RPS;Pine pottery;1 kom;45,00;45,00;NE;;45,00;;nedostupno
+Deep Blue Vase;DBV2;Pine pottery;1 kom;45,00;45,00;NE;;45,00;;nedostupno
+Jar Gustirna;JG;Pine pottery;1 kom;75,00;75,00;NE;;75,00;;nedostupno
+Latte coral cup;LCC;Pine pottery;1 kom;35,00;35,00;NE;;35,00;;nedostupno
+Latte Sea cup;LSC1;Pine pottery;1 kom;33,00;33,00;NE;;33,00;;dostupno
+Latte Waves cup;LWC1;Pine pottery;1 kom;35,00;35,00;NE;;35,00;;dostupno
+Olive oil bottle;OOB;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Olive serving bowl;OSB;Pine pottery;1 kom;28,00;28,00;NE;;28,00;;nedostupno
+Pine Oil Bottle;POB1;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Pine Oil bottle;POB2;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Pine pottery gift card - €25.00;GCT;Pine pottery;1 kom;25,00;25,00;NE;;25,00;;dostupno
+Pine pottery gift card - €50.00;GCF;Pine pottery;1 kom;50,00;50,00;NE;;25,00;;dostupno
+Pine pottery gift card - €100.00;GCH;Pine pottery;1 kom;100,00;100,00;NE;;25,00;;dostupno
+Pine pottery gift card - €200.00;GCTH;Pine pottery;1 kom;200,00;200,00;NE;;25,00;;dostupno
+Rosemary bowl;SB;Pine pottery;1 kom;50,00;50,00;NE;;50,00;;nedostupno
+Rosemary oil bottle;COB;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Rosemary plate;RPS;Pine pottery;1 kom;35,00;35,00;NE;;35,00;;nedostupno
+Sea Bowl;SB;Pine pottery;1 kom;35,00;35,00;NE;;35,00;;nedostupno
+Sea cake stand;SCS;Pine pottery;1 kom;45,00;45,00;NE;;45,00;;dostupno
+Sea plate;RPS;Pine pottery;1 kom;29,00;29,00;NE;;29,00;;nedostupno
+Waves Oil bottle;WOB;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
+Waves Oil Bottle;WOB2;Pine pottery;1 kom;70,00;70,00;NE;;70,00;;nedostupno
