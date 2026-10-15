@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>19</broj_pohrane>
-    <datum_vrijeme>2026-10-14T03:01:15.824Z</datum_vrijeme>
+    <broj_pohrane>20</broj_pohrane>
+    <datum_vrijeme>2026-10-15T03:01:11.888Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -39,7 +39,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Capers bowl</naziv_proizvoda>
-    <sifra_proizvoda>SB</sifra_proizvoda>
+    <sifra_proizvoda>CB</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
@@ -65,7 +65,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Capers plate</naziv_proizvoda>
-    <sifra_proizvoda>RPS</sifra_proizvoda>
+    <sifra_proizvoda>CP</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
@@ -78,7 +78,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Deep blue bowl</naziv_proizvoda>
-    <sifra_proizvoda>SB</sifra_proizvoda>
+    <sifra_proizvoda>DBB</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
@@ -104,7 +104,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Deep blue plate</naziv_proizvoda>
-    <sifra_proizvoda>RPS</sifra_proizvoda>
+    <sifra_proizvoda>DBP</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
@@ -286,7 +286,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Rosemary bowl</naziv_proizvoda>
-    <sifra_proizvoda>SB</sifra_proizvoda>
+    <sifra_proizvoda>RB</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>50,00</cijena_za_jedinicu_mjere>
@@ -299,7 +299,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Rosemary oil bottle</naziv_proizvoda>
-    <sifra_proizvoda>COB</sifra_proizvoda>
+    <sifra_proizvoda>ROB</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
@@ -312,7 +312,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Rosemary plate</naziv_proizvoda>
-    <sifra_proizvoda>RPS</sifra_proizvoda>
+    <sifra_proizvoda>RP</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
@@ -351,7 +351,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Sea plate</naziv_proizvoda>
-    <sifra_proizvoda>RPS</sifra_proizvoda>
+    <sifra_proizvoda>SP</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>29,00</cijena_za_jedinicu_mjere>
@@ -365,19 +365,6 @@
   <proizvod>
     <naziv_proizvoda>Waves Oil bottle</naziv_proizvoda>
     <sifra_proizvoda>WOB</sifra_proizvoda>
-    <marka>Pine pottery</marka>
-    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
-    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
-    <maloprodajna_cijena>70,00</maloprodajna_cijena>
-    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
-    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
-    <sidrena_cijena>70,00</sidrena_cijena>
-    <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
-  </proizvod>
-  <proizvod>
-    <naziv_proizvoda>Waves Oil Bottle</naziv_proizvoda>
-    <sifra_proizvoda>WOB2</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
