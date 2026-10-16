@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik>
+  <trgovac>
+    <naziv>Pine pottery Obrt za izradu i trgovinu</naziv>
+    <oib>14271271876</oib>
+    <adresa>Mosećka 48, 21000 Split, Croatia</adresa>
+  </trgovac>
+  <objava>
+    <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
+    <oznaka_objekta>pinepottery.art</oznaka_objekta>
+    <broj_pohrane>21</broj_pohrane>
+    <datum_vrijeme>2026-10-16T03:01:14.306Z</datum_vrijeme>
+  </objava>
+  <proizvod>
+    <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
+    <sifra_proizvoda>BEC</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>21,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>21,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>21,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Bougainvillea vase</naziv_proizvoda>
+    <sifra_proizvoda>BV</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>140,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>140,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>140,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Capers bowl</naziv_proizvoda>
+    <sifra_proizvoda>CB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>60,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>60,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Capers oil bottle</naziv_proizvoda>
+    <sifra_proizvoda>COB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>80,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>80,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>80,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Capers plate</naziv_proizvoda>
+    <sifra_proizvoda>CP</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>45,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Deep blue bowl</naziv_proizvoda>
+    <sifra_proizvoda>DBB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>60,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>60,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Deep Blue Oil Bottle</naziv_proizvoda>
+    <sifra_proizvoda>DBOB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Deep blue plate</naziv_proizvoda>
+    <sifra_proizvoda>DBP</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>45,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Deep Blue Vase</naziv_proizvoda>
+    <sifra_proizvoda>DBV</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>45,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Jar Gustirna</naziv_proizvoda>
+    <sifra_proizvoda>JG</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>75,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>75,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>75,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Latte coral cup</naziv_proizvoda>
+    <sifra_proizvoda>LCC</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>35,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Latte Sea cup</naziv_proizvoda>
+    <sifra_proizvoda>LSC1</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>33,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>33,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>33,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Latte Waves cup</naziv_proizvoda>
+    <sifra_proizvoda>LWC1</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>35,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Olive oil bottle</naziv_proizvoda>
+    <sifra_proizvoda>OOB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Olive serving bowl</naziv_proizvoda>
+    <sifra_proizvoda>OSB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>28,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>28,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>28,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine Oil Bottle</naziv_proizvoda>
+    <sifra_proizvoda>POB1</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine Oil bottle</naziv_proizvoda>
+    <sifra_proizvoda>POB2</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine pottery gift card - €25.00</naziv_proizvoda>
+    <sifra_proizvoda>GCT</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>25,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>25,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>25,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine pottery gift card - €50.00</naziv_proizvoda>
+    <sifra_proizvoda>GCF</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>50,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>50,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>25,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine pottery gift card - €100.00</naziv_proizvoda>
+    <sifra_proizvoda>GCH</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>100,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>100,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>25,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Pine pottery gift card - €200.00</naziv_proizvoda>
+    <sifra_proizvoda>GCTH</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>200,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>200,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>25,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Rosemary bowl</naziv_proizvoda>
+    <sifra_proizvoda>RB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>50,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>50,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>50,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Rosemary oil bottle</naziv_proizvoda>
+    <sifra_proizvoda>ROB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Rosemary plate</naziv_proizvoda>
+    <sifra_proizvoda>RP</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>35,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Sea Bowl</naziv_proizvoda>
+    <sifra_proizvoda>SB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>35,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Sea cake stand</naziv_proizvoda>
+    <sifra_proizvoda>SCS</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>45,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>dostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Sea plate</naziv_proizvoda>
+    <sifra_proizvoda>SP</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>29,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>29,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>29,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
+    <naziv_proizvoda>Waves Oil bottle</naziv_proizvoda>
+    <sifra_proizvoda>WOB</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+</cjenik>

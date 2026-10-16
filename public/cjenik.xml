@@ -8,12 +8,12 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>20</broj_pohrane>
-    <datum_vrijeme>2026-10-15T03:01:11.888Z</datum_vrijeme>
+    <broj_pohrane>21</broj_pohrane>
+    <datum_vrijeme>2026-10-16T03:01:14.306Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
-    <sifra_proizvoda>EC1</sifra_proizvoda>
+    <sifra_proizvoda>BEC</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>21,00</cijena_za_jedinicu_mjere>
@@ -117,7 +117,7 @@
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Deep Blue Vase</naziv_proizvoda>
-    <sifra_proizvoda>DBV2</sifra_proizvoda>
+    <sifra_proizvoda>DBV</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
