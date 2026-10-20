@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>24</broj_pohrane>
-    <datum_vrijeme>2026-10-19T03:01:10.147Z</datum_vrijeme>
+    <broj_pohrane>25</broj_pohrane>
+    <datum_vrijeme>2026-10-20T03:01:15.355Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -21,19 +21,6 @@
     <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>21,00</sidrena_cijena>
-    <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
-  </proizvod>
-  <proizvod>
-    <naziv_proizvoda>Bougainvillea vase</naziv_proizvoda>
-    <sifra_proizvoda>BV</sifra_proizvoda>
-    <marka>Pine pottery</marka>
-    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
-    <cijena_za_jedinicu_mjere>140,00</cijena_za_jedinicu_mjere>
-    <maloprodajna_cijena>140,00</maloprodajna_cijena>
-    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
-    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
-    <sidrena_cijena>140,00</sidrena_cijena>
     <barkod></barkod>
     <dostupnost>nedostupno</dostupnost>
   </proizvod>
