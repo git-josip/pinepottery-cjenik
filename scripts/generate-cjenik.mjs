@@ -336,6 +336,7 @@ function zapisiPopisArhive(dir) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Arhiva cjenika — Pine Pottery</title>
+<meta name="description" content="Arhiva dnevnih objava cjenika internetske trgovine Pine Pottery (Split) u CSV i XML formatu.">
 <link rel="icon" type="image/png" href="../favicon.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
