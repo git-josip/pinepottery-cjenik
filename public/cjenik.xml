@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>26</broj_pohrane>
-    <datum_vrijeme>2026-10-21T03:01:10.515Z</datum_vrijeme>
+    <broj_pohrane>27</broj_pohrane>
+    <datum_vrijeme>2026-10-22T03:01:12.162Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -142,6 +142,19 @@
     <dostupnost>nedostupno</dostupnost>
   </proizvod>
   <proizvod>
+    <naziv_proizvoda>Green Pine Oil Bottle</naziv_proizvoda>
+    <sifra_proizvoda>POB2</sifra_proizvoda>
+    <marka>Pine pottery</marka>
+    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
+    <sidrena_cijena>70,00</sidrena_cijena>
+    <barkod></barkod>
+    <dostupnost>nedostupno</dostupnost>
+  </proizvod>
+  <proizvod>
     <naziv_proizvoda>Jar Gustirna</naziv_proizvoda>
     <sifra_proizvoda>JG</sifra_proizvoda>
     <marka>Pine pottery</marka>
@@ -248,19 +261,6 @@
   <proizvod>
     <naziv_proizvoda>Pine Oil Bottle</naziv_proizvoda>
     <sifra_proizvoda>POB1</sifra_proizvoda>
-    <marka>Pine pottery</marka>
-    <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
-    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
-    <maloprodajna_cijena>70,00</maloprodajna_cijena>
-    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
-    <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
-    <sidrena_cijena>70,00</sidrena_cijena>
-    <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
-  </proizvod>
-  <proizvod>
-    <naziv_proizvoda>Pine Oil bottle</naziv_proizvoda>
-    <sifra_proizvoda>POB2</sifra_proizvoda>
     <marka>Pine pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
     <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
