@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>28</broj_pohrane>
-    <datum_vrijeme>2026-10-23T03:01:10.445Z</datum_vrijeme>
+    <broj_pohrane>29</broj_pohrane>
+    <datum_vrijeme>2026-10-24T03:01:12.896Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -22,7 +22,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>21,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Capers bowl</naziv_proizvoda>
@@ -87,7 +87,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>21,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Deep blue bowl</naziv_proizvoda>
@@ -113,7 +113,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>70,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Deep blue plate</naziv_proizvoda>
@@ -152,7 +152,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>70,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Jar Gustirna</naziv_proizvoda>
@@ -191,7 +191,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>35,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Latte Sea cup</naziv_proizvoda>
@@ -230,7 +230,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>80,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Olive oil bottle</naziv_proizvoda>
@@ -256,7 +256,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>28,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Pine Oil Bottle</naziv_proizvoda>
@@ -386,7 +386,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>35,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Sea cake stand</naziv_proizvoda>
@@ -412,7 +412,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>29,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Waves espresso cup</naziv_proizvoda>
@@ -425,7 +425,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>21,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>nedostupno</dostupnost>
+    <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Waves Oil bottle</naziv_proizvoda>
