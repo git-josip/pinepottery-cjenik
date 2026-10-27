@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>31</broj_pohrane>
-    <datum_vrijeme>2026-10-26T04:01:10.426Z</datum_vrijeme>
+    <broj_pohrane>32</broj_pohrane>
+    <datum_vrijeme>2026-10-27T04:01:14.247Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -217,7 +217,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>80,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>dostupno</dostupnost>
+    <dostupnost>nedostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Olive oil bottle</naziv_proizvoda>
