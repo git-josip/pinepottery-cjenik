@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>32</broj_pohrane>
-    <datum_vrijeme>2026-10-27T04:01:14.247Z</datum_vrijeme>
+    <broj_pohrane>33</broj_pohrane>
+    <datum_vrijeme>2026-10-28T04:01:13.124Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -246,7 +246,7 @@
     <dostupnost>dostupno</dostupnost>
   </proizvod>
   <proizvod>
-    <naziv_proizvoda>Pine oil bottle</naziv_proizvoda>
+    <naziv_proizvoda>Pine olive oil bottle</naziv_proizvoda>
     <sifra_proizvoda>POB1</sifra_proizvoda>
     <marka>Pine Pottery</marka>
     <neto_kolicina_jedinica_mjere>1 kom</neto_kolicina_jedinica_mjere>
