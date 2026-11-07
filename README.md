@@ -88,7 +88,7 @@ Svaka objava zapisuje datoteku u `public/arhiva/` pod imenom propisanim točkom 
 internetska-trgovina_<adresa>_<oznaka-objekta>_<broj-pohrane>_<YYYYMMDD-HHmm>.csv
 ```
 
-Broj pohrane raste monotono i čuva se u `public/arhiva/stanje.json`. Datoteke starije od 45 dana se brišu (Odluka traži najmanje 30). Uz to, svaka objava je i zaseban git commit — povijest repozitorija je dokaz što je i kada bilo objavljeno.
+Broj pohrane raste monotono i čuva se u `public/arhiva/stanje.json`. Datoteke starije od 31 dana se brišu (Odluka traži najmanje 30; jedan dan zalihe). Uz to, svaka objava je i zaseban git commit — povijest repozitorija je dokaz što je i kada bilo objavljeno.
 
 Vrijeme objave se za starenje i za prikaz čita **iz naziva datoteke**, ne iz vremena zadnje izmjene. Na GitHub Actionsu se repozitorij svaki put iznova klonira, pa sve arhivirane datoteke dobiju vrijeme checkouta — po njemu bi izgledale kao da su nastale jutros i čišćenje se nikad ne bi okinulo.
 
@@ -100,7 +100,7 @@ Workflow radi uz `TZ: Europe/Zagreb`. Runner je inače u UTC-u, pa bi vrijeme u 
 
 Sidrena cijena živi u Shopifyju kao metafield proizvoda **`custom.sidrena_cijena`** (tip: decimalni broj). Ista vrijednost hrani i prikaz na stranici proizvoda i ovaj cjenik, pa postoji samo jedan izvor istine.
 
-Vrijednost je cijena zatečena **10. 9. 2026.** i **ne mijenja se** kad se promijeni prodajna cijena. Za proizvod uveden nakon tog datuma polje ostaje prazno; skripta ga tada izvijesti kao upozorenje, a stupac u cjeniku ostaje prazan.
+Vrijednost je cijena zatečena **10. 9. 2026.** i **ne mijenja se** kad se promijeni prodajna cijena. Za proizvod uveden nakon tog datuma upisuje se cijena prvog uvrštenja u prodaju (vidi „Kad dodaš novi proizvod”); prazno polje skripta izvijesti kao upozorenje, a stupac u cjeniku ostaje prazan.
 
 ## Barkod
 
@@ -120,7 +120,7 @@ Na kraju svakog izvođenja ispisuje upozorenja za proizvode bez sidrene cijene, 
 
 ### Kad dodaš novi proizvod
 
-1. Postavi mu `custom.sidrena_cijena` ako je bio u prodaji 10. 9. 2026. Ako nije, ostavi prazno i zabilježi zašto.
+1. Postavi mu `custom.sidrena_cijena`: ako je bio u prodaji 10. 9. 2026., cijena toga dana; ako je nov, **cijena prvog uvrštenja u prodaju** (Pojašnjenja MINGO 22. 9. 2026., „Novoulistani proizvodi”: dodatna cijena je cijena primijenjena prilikom prvog uvrštenja, uz naznaku datuma – tema na webu uz nju ispisuje datum objave proizvoda). Pri kloniranju proizvoda polje se kopira – **uvijek ga provjeri** (6. 11. 2026. tri klonirana proizvoda imala su krivu vrijednost).
 2. Provjeri ima li šifru (SKU) — obvezan je stupac.
 3. Sljedeća objava ga pokupi sama.
 
