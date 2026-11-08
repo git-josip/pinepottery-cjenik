@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>44</broj_pohrane>
-    <datum_vrijeme>2026-11-07T18:38:38.305Z</datum_vrijeme>
+    <broj_pohrane>45</broj_pohrane>
+    <datum_vrijeme>2026-11-08T04:01:05.575Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -191,7 +191,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>33,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>dostupno</dostupnost>
+    <dostupnost>nedostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Latte Waves cup</naziv_proizvoda>
@@ -204,7 +204,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>35,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>dostupno</dostupnost>
+    <dostupnost>nedostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Lavender olive oil bottle</naziv_proizvoda>
