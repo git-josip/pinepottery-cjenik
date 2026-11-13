@@ -8,8 +8,8 @@
   <objava>
     <oblik_prodajnog_objekta>internetska trgovina</oblik_prodajnog_objekta>
     <oznaka_objekta>pinepottery.art</oznaka_objekta>
-    <broj_pohrane>49</broj_pohrane>
-    <datum_vrijeme>2026-11-12T04:01:09.081Z</datum_vrijeme>
+    <broj_pohrane>50</broj_pohrane>
+    <datum_vrijeme>2026-11-13T04:01:05.224Z</datum_vrijeme>
   </objava>
   <proizvod>
     <naziv_proizvoda>Beach espresso cup</naziv_proizvoda>
@@ -373,7 +373,7 @@
     <naziv_posebnog_oblika_prodaje></naziv_posebnog_oblika_prodaje>
     <sidrena_cijena>35,00</sidrena_cijena>
     <barkod></barkod>
-    <dostupnost>dostupno</dostupnost>
+    <dostupnost>nedostupno</dostupnost>
   </proizvod>
   <proizvod>
     <naziv_proizvoda>Sea cake stand</naziv_proizvoda>
