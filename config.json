@@ -3,15 +3,11 @@
   "trgovac": {
     "naziv": "Pine pottery Obrt za izradu i trgovinu",
     "oib": "14271271876",
+    "maticniBroj": "98311158",
     "adresa": "Mosećka 48, 21000 Split, Croatia"
   },
-  "oblikProdajnogObjekta": "internetska trgovina",
-  "oznakaObjekta": "pinepottery.art",
+  "naznakaCjenika": "ROBA",
   "zadanaMarka": "Pine Pottery",
-  "zadanaJedinicaMjere": "1 kom",
-  "nazivPosebnogOblikaProdaje": "Sniženje",
-  "oznakaNaZalihi": "dostupno",
-  "oznakaPoNarudzbi": "dostupno",
-  "oznakaNedostupno": "nedostupno",
+  "zadanaJedinicaMjere": "kom",
   "danaArhive": 31
 }

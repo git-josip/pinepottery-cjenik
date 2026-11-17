@@ -1,6 +1,6 @@
 # Cjenik — Pine Pottery
 
-Dnevna objava cjenika proizvoda prema **Odluci o objavi cjenika proizvoda i usluga kao mjeri izravne kontrole cijena** i **Odluci o isticanju dodatne cijene** (obje NN 101/2026, primjena od 1. 10. 2026.).
+Dnevna objava cjenika robe prema **Pravilniku o načinu objave cjenika proizvoda** i **Pravilniku o isticanju bazne cijene proizvoda** (oba NN 132/2026, na snazi od 17. 11. 2026.). Ti pravilnici su zamijenili Odluke iz NN 101/2026 i 110/2026, koje su istog dana prestale važiti.
 
 Skripta povuče aktivne proizvode iz Shopifyja, zapiše `cjenik.csv` i `cjenik.xml` u `public/`, arhivira imenovanu kopiju i commita promjenu. Isti workflow onda objavi `public/` na GitHub Pages.
 
@@ -10,9 +10,9 @@ Nije pravni savjet — za granične slučajeve konzultirati knjigovođu ili HOK.
 
 ## Što sadrži cjenik
 
-Jedanaest stupaca propisanih točkom III. Odluke: naziv, šifra, marka, jedinica mjere, cijena za jedinicu mjere, maloprodajna cijena, je li primijenjen poseban oblik prodaje i koji, sidrena cijena, barkod, dostupnost.
+Stupci idu redoslijedom iz čl. 3. st. 2. Pravilnika, a taj je redoslijed obvezan (st. 4.): `naziv_robe`, `sifra_robe`, `marka_robe`, `neto_kolicina`, `jedinica_mjere`, `maloprodajna_cijena`, `poseban_oblik_prodaje` (DA/NE), `cijena_za_jedinicu_mjere`, `barkod`, `ean_barkod`, `bazna_cijena`. Nazive stupaca Pravilnik ne propisuje. Neto količina ostaje prazna, jer se traži samo za robu kojoj je posebnim propisom propisana cijena za jedinicu mjere.
 
-CSV je razdvojen točka-zarezom, u UTF-8 s BOM-om, s decimalnim zarezom i bez oznake valute — otvara se ispravno u hrvatskim postavkama Excela.
+CSV je razdvojen točka-zarezom (čl. 6. st. 7.) i kodiran u UTF-8 **bez BOM-a** (st. 6.). Decimale su sa zarezom, bez oznake valute. Excel bez BOM-a može krivo prikazati dijakritiku; u tom slučaju datoteku otvori preko Podaci → Iz teksta/CSV-a, s kodiranjem UTF-8.
 
 ## Postavljanje (jednokratno)
 
@@ -60,7 +60,7 @@ Actions → *Objava cjenika* → Run workflow. Provjeri da se datoteke pojave i 
 
 ## Raspored
 
-Dva crona (UTC): glavna objava `30 3 * * 1-5` (5:30 ljeti, 4:30 zimi) i kontrolna `30 4 * * 1-5` (6:30 ljeti, 5:30 zimi). Rok iz Odluke je 8:00. GitHubov raspoređivač zna kasniti i po pola sata, a rijetko i preskočiti pokretanje.
+Dva crona (UTC): glavna objava `30 3 * * *` (5:30 ljeti, 4:30 zimi) i kontrolna `30 4 * * *` (6:30 ljeti, 5:30 zimi). Pravilnik traži da izmijenjeni cjenik bude objavljen najkasnije do 11:00 na dan izmjene (čl. 3. st. 5.), i to vrijedi i vikendom. GitHubov raspoređivač zna kasniti i po pola sata, a rijetko i preskočiti pokretanje.
 
 Zakazano pokretanje ne objavljuje ako u arhivi već postoji današnja datoteka, pa kontrolna objavi samo kad glavna nije prošla. Ručno pokretanje uvijek objavljuje.
 
@@ -71,24 +71,24 @@ GitHubov `schedule` od 26. 8. 2026. u mnogim repozitorijima ne okida ili kasni s
 - POST `https://api.github.com/repos/git-josip/pinepottery-cjenik/actions/workflows/cjenik.yml/dispatches`
 - zaglavlja `Authorization: Bearer <PAT>` i `Accept: application/vnd.github+json`
 - tijelo `{"ref":"main","inputs":{"rezerva":"true"}}`
-- pon–pet u 5:30 i 6:30, vremenska zona Europe/Zagreb
+- svaki dan u 5:30 i 6:30, vremenska zona Europe/Zagreb (u cron-job.org prebaciti s pon–pet na svaki dan)
 - uspjeh = HTTP 204
 
 PAT je fine-grained, samo za ovaj repozitorij, s dozvolom **Actions: Read and write**. Vrijedi godinu dana — obnoviti ga prije isteka, inače okidač tiho prestaje raditi.
 
 S `rezerva=true` run ne objavljuje ako je danas već objavljeno, pa se GitHubov cron i vanjski okidač ne sudaraju.
 
-Vikendom se ne izvodi jer Odluka traži objavu svakog **radnog** dana. Ako želiš i vikende, u oba crona zamijeni `1-5` sa `*`.
+Objava ide svaki dan, i vikendom, jer bi i subotnja izmjena cijene morala izaći do 11:00 istog dana.
 
 ## Arhiva
 
-Svaka objava zapisuje datoteku u `public/arhiva/` pod imenom propisanim točkom VI.:
+Imamo jedno prodajno mjesto (webshop), pa se naziv datoteke slaže po čl. 6. st. 4.: matični broj obrta (MBO, ne OIB), `ZA_SVA_PRODAJNA_MJESTA`, vrsta cjenika, broj pohrane i vrijeme `GGGGMMDD_SSMM`. Aktualna datoteka stoji u korijenu `public/`, a prethodna se s tog mjesta uklanja (st. 2.). Kopija svake objave ide u `public/arhiva/`. Ista aktualna datoteka objavljuje se i pod stalnim imenom `cjenik.csv`/`cjenik.xml`, a naslovnica u bloku `<!-- AKTUALNO -->` vodi na datoteku s propisanim nazivom.
 
 ```
-internetska-trgovina_<adresa>_<oznaka-objekta>_<broj-pohrane>_<YYYYMMDD-HHmm>.csv
+98311158_ZA_SVA_PRODAJNA_MJESTA_ROBA_<broj-pohrane>_<GGGGMMDD_SSMM>.csv
 ```
 
-Broj pohrane raste monotono i čuva se u `public/arhiva/stanje.json`. Datoteke starije od 31 dana se brišu (Odluka traži najmanje 30; jedan dan zalihe). Uz to, svaka objava je i zaseban git commit — povijest repozitorija je dokaz što je i kada bilo objavljeno.
+Broj pohrane raste monotono i čuva se u `public/arhiva/stanje.json`. Datoteke starije od 31 dana se brišu. Pravilnik traži 15 dana od zamjene novim cjenikom, a mi čuvamo s velikom zalihom. Datoteke sa starim nazivom (`internetska-trgovina_…`, do 17. 11. 2026.) sama arhiva još prepoznaje i briše ih kad isteknu. Uz to, svaka objava je i zaseban git commit — povijest repozitorija je dokaz što je i kada bilo objavljeno.
 
 Vrijeme objave se za starenje i za prikaz čita **iz naziva datoteke**, ne iz vremena zadnje izmjene. Na GitHub Actionsu se repozitorij svaki put iznova klonira, pa sve arhivirane datoteke dobiju vrijeme checkouta — po njemu bi izgledale kao da su nastale jutros i čišćenje se nikad ne bi okinulo.
 
@@ -96,15 +96,15 @@ Vrijeme objave se za starenje i za prikaz čita **iz naziva datoteke**, ne iz vr
 
 Workflow radi uz `TZ: Europe/Zagreb`. Runner je inače u UTC-u, pa bi vrijeme u nazivu datoteke bilo sat-dva ranije od stvarnog vremena objave.
 
-## Sidrena cijena
+## Bazna (sidrena) cijena
 
-Sidrena cijena živi u Shopifyju kao metafield proizvoda **`custom.sidrena_cijena`** (tip: decimalni broj). Ista vrijednost hrani i prikaz na stranici proizvoda i ovaj cjenik, pa postoji samo jedan izvor istine.
+Bazna cijena, ranije zvana sidrena, živi u Shopifyju kao metafield proizvoda **`custom.sidrena_cijena`** (tip: decimalni broj). Metafield je zadržao staro ime, a u cjeniku je stupac `bazna_cijena`. Ista vrijednost hrani i prikaz na stranici proizvoda i ovaj cjenik, pa postoji samo jedan izvor istine.
 
 Vrijednost je cijena zatečena **10. 9. 2026.** i **ne mijenja se** kad se promijeni prodajna cijena. Za proizvod uveden nakon tog datuma upisuje se cijena prvog uvrštenja u prodaju (vidi „Kad dodaš novi proizvod”); prazno polje skripta izvijesti kao upozorenje, a stupac u cjeniku ostaje prazan.
 
 ## Barkod
 
-Stupac `barkod` puni se iz Shopify polja *Barcode* varijante. Ručno izrađena keramika u pravilu nema GTIN/EAN oznake, pa stupac ostaje prazan. Odluka traži da stupac postoji, a on postoji i ostaje prazan jer podatka nema. Upisivanje izmišljene oznake bilo bi netočno, pa se ne radi.
+Stupac `barkod` puni se iz Shopify polja *Barcode* varijante. Ručno izrađena keramika u pravilu nema GTIN/EAN oznake, pa stupac ostaje prazan. Stupac `ean_barkod` se popunjava samo kada je barkod EAN-8 ili EAN-13 (8 ili 13 znamenki). Pravilnik traži stupac "ako je primjenjivo", a on postoji i ostaje prazan jer podatka nema. Upisivanje izmišljene oznake bilo bi netočno, pa se ne radi.
 
 Ako se jednom uvedu EAN oznake, dovoljno ih je upisati u Shopify i sljedeća objava ih pokupi bez ikakve izmjene skripte.
 
@@ -116,7 +116,7 @@ Ta datoteka je iz Cloudflare Pages postavljanja i na GitHub Pagesu **ne radi ni�
 
 Skripta prekida rad ako se prijava na Shopify ne uspije ili ako Shopify vrati nula proizvoda, da se ne objavi prazan cjenik. Workflow tada padne i GitHub pošalje mail.
 
-Na kraju svakog izvođenja ispisuje upozorenja za proizvode bez sidrene cijene, bez šifre i bez barkoda — vrijedi ih povremeno pogledati u logu.
+Na kraju svakog izvođenja ispisuje upozorenja za proizvode bez bazne cijene, bez šifre i bez barkoda — vrijedi ih povremeno pogledati u logu.
 
 ### Kad dodaš novi proizvod
 

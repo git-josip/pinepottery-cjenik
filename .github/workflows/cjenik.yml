@@ -1,15 +1,17 @@
 name: Objava cjenika
 
-# Odluka NN 101/2026 traži objavu svakog radnog dana najkasnije do 8:00.
+# Pravilnik o načinu objave cjenika (NN 132/2026, čl. 3. st. 5.): izmijenjeni
+# cjenik objavljuje se najkasnije do 11:00 na dan izmjene — i vikendom, pa
+# objavljujemo svaki dan.
 # Cron je u UTC-u. Glavna objava 03:30 UTC = 05:30 ljeti (CEST), 04:30 zimi (CET).
 # Kontrolna 04:30 UTC = 06:30 ljeti, 05:30 zimi — rezerva ako GitHub
-# preskoči ili jako zakasni s glavnom; i ona ima sat i pol zalihe do 8:00.
+# preskoči ili jako zakasni s glavnom.
 # Zakazano pokretanje (i vanjski okidač s rezerva=true) se preskače ako je
 # danas već objavljeno; ručno pokretanje bez tog inputa uvijek objavljuje.
 on:
   schedule:
-    - cron: '30 3 * * 1-5'
-    - cron: '30 4 * * 1-5'
+    - cron: '30 3 * * *'
+    - cron: '30 4 * * *'
   workflow_dispatch:
     inputs:
       rezerva:
@@ -28,7 +30,7 @@ concurrency:
 
 env:
   # Runner je u UTC-u. Bez ovoga bi vrijeme u nazivu arhivirane datoteke
-  # bilo UTC, a Odluka traži stvarno vrijeme objave.
+  # bilo UTC, a Pravilnik traži stvarno vrijeme objave.
   TZ: Europe/Zagreb
 
 jobs:
@@ -45,7 +47,7 @@ jobs:
         id: provjera
         if: github.event_name == 'schedule' || inputs.rezerva
         run: |
-          if ls public/arhiva/*_"$(date +%Y%m%d)"-*.csv >/dev/null 2>&1; then
+          if ls public/arhiva/*_"$(date +%Y%m%d)"_*.csv >/dev/null 2>&1; then
             echo "Danas je već objavljeno, preskačem."
             echo "preskoci=true" >> "$GITHUB_OUTPUT"
           fi
