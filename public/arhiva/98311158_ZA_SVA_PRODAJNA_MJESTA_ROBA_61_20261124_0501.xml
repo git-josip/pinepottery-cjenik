@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik>
+  <trgovac>
+    <naziv>Pine pottery Obrt za izradu i trgovinu</naziv>
+    <oib>14271271876</oib>
+    <maticni_broj>98311158</maticni_broj>
+    <adresa>Mosećka 48, 21000 Split, Croatia</adresa>
+  </trgovac>
+  <objava>
+    <prodajno_mjesto>ZA_SVA_PRODAJNA_MJESTA</prodajno_mjesto>
+    <vrsta_cjenika>ROBA</vrsta_cjenika>
+    <broj_pohrane>61</broj_pohrane>
+    <datum_vrijeme>2026-11-24T04:01:06.681Z</datum_vrijeme>
+  </objava>
+  <roba>
+    <naziv_robe>Beach espresso cup</naziv_robe>
+    <sifra_robe>BEC</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>21,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>21,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>21,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Capers bowl</naziv_robe>
+    <sifra_robe>CB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>60,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>60,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Capers olive oil bottle</naziv_robe>
+    <sifra_robe>COB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>80,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>80,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>80,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Capers plate</naziv_robe>
+    <sifra_robe>CP</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>45,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Capers serving bowl</naziv_robe>
+    <sifra_robe>CSB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>29,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>29,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>29,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Coral espresso cup</naziv_robe>
+    <sifra_robe>CEC</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>28,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>28,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>28,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Deep Blue bowl</naziv_robe>
+    <sifra_robe>DBB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>60,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>60,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>60,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Deep Blue olive oil bottle</naziv_robe>
+    <sifra_robe>DBOB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Deep Blue plate</naziv_robe>
+    <sifra_robe>DBP</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>45,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Deep Blue vase</naziv_robe>
+    <sifra_robe>DBV</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>45,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Green Pine olive oil bottle</naziv_robe>
+    <sifra_robe>POB2</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Gustirna jar</naziv_robe>
+    <sifra_robe>JG</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>75,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>75,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>75,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Latte Coral cup</naziv_robe>
+    <sifra_robe>LCC</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>35,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Latte Sea cup</naziv_robe>
+    <sifra_robe>LSC1</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>33,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>33,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>33,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Latte Waves cup</naziv_robe>
+    <sifra_robe>LWC1</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>35,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Lavender olive oil bottle</naziv_robe>
+    <sifra_robe>LOB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>80,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>80,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>80,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Olive oil bottle</naziv_robe>
+    <sifra_robe>OOB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Olive serving bowl</naziv_robe>
+    <sifra_robe>OSB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>28,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>28,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>28,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine olive oil bottle</naziv_robe>
+    <sifra_robe>POB1</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine Pottery gift card - 25 €</naziv_robe>
+    <sifra_robe>GCT</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>25,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>25,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>25,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine Pottery gift card - 50 €</naziv_robe>
+    <sifra_robe>GCF</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>50,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>50,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>25,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine Pottery gift card - 100 €</naziv_robe>
+    <sifra_robe>GCH</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>100,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>100,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>25,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine Pottery gift card - 200 €</naziv_robe>
+    <sifra_robe>GCTH</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>200,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>200,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>25,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Pine serving bowl</naziv_robe>
+    <sifra_robe>PSB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>28,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>28,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>28,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Rosemary bowl</naziv_robe>
+    <sifra_robe>RB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>50,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>50,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>50,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Rosemary olive oil bottle</naziv_robe>
+    <sifra_robe>ROB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Rosemary plate</naziv_robe>
+    <sifra_robe>RP</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>35,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Sea bowl</naziv_robe>
+    <sifra_robe>SB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>35,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>35,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>35,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Sea cake stand</naziv_robe>
+    <sifra_robe>SCS</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>45,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>45,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>45,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Sea plate</naziv_robe>
+    <sifra_robe>SP</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>29,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>29,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>29,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Suhozid jar</naziv_robe>
+    <sifra_robe>JS</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>75,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>75,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>75,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Waves espresso cup</naziv_robe>
+    <sifra_robe>WEC</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>28,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>28,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>28,00</bazna_cijena>
+  </roba>
+  <roba>
+    <naziv_robe>Waves olive oil bottle</naziv_robe>
+    <sifra_robe>WOB</sifra_robe>
+    <marka_robe>Pine Pottery</marka_robe>
+    <neto_kolicina></neto_kolicina>
+    <jedinica_mjere>kom</jedinica_mjere>
+    <maloprodajna_cijena>70,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje>NE</poseban_oblik_prodaje>
+    <cijena_za_jedinicu_mjere>70,00</cijena_za_jedinicu_mjere>
+    <barkod></barkod>
+    <ean_barkod></ean_barkod>
+    <bazna_cijena>70,00</bazna_cijena>
+  </roba>
+</cjenik>
